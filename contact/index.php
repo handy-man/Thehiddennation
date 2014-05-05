@@ -1,6 +1,6 @@
 <?PHP
-include('./core/functions.php');
-include('./core/config.php');
+include('../core/functions.php');
+include('../core/config.php');
 ?>
 
 <!DOCTYPE html>
@@ -15,10 +15,10 @@ include('./core/config.php');
     <title>Nathan Hand's personal webpage.</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/cover.css" rel="stylesheet">
+    <link href="../css/cover.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,7 +30,7 @@ include('./core/config.php');
     <![endif]-->
   </head>
 
-  <body>
+<body>
 
     <div class="site-wrapper">
 
@@ -42,10 +42,10 @@ include('./core/config.php');
 		?>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Nathan Hand</h1>
-            <p class="lead">Welcome to my personal website, my name is Nathan Hand and I'm currently studying computer science at Aberystwyth university.</p>
+            <h1 class="cover-heading">Email me!</h1>
+            <p class="lead">Feel free to email me with questions and queries.</p>
             <p class="lead">
-              <a href="./projects/" class="btn btn-lg btn-default">My projects</a>
+              <a href="mailto:administrator@thehiddennation.com" class="btn btn-lg btn-default">Email me</a>
             </p>
           </div>
 
@@ -59,11 +59,12 @@ include('./core/config.php');
 
     </div>
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./assets/js/docs.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../assets/js/docs.min.js"></script>
   </body>
 </html>
